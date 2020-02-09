@@ -16,11 +16,15 @@ img {
 
 #showcase {
   background-image: url("../img/showcase.jpg");
-  background-position: no-repeat top center fixed/cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
   position: relative;
   min-height: 650px;
   color: #fff;
   padding-top: 6rem; }
+
   #showcase .home-search {
     min-height: 400px;
     position: relative;
@@ -36,10 +40,14 @@ img {
 
 #services {
   background-image: url("../img/building.jpg");
-  background-position:  no-repeat top center fixed/cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
   min-height: 300px;
   position: relative;
   overflow: hidden; }
+
   #services::before {
     content: '';
     position: absolute;
@@ -51,10 +59,14 @@ img {
 
 #showcase-inner {
   background-image: url("../img/building.jpg");
-  background-position: no-repeat top center fixed/cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
   position: relative;
   overflow: hidden;
   min-height: 200px; }
+  
   #showcase-inner::before {
     content: '';
     position: absolute;
