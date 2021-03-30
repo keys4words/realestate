@@ -90,8 +90,19 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 #         'PORT': '5432'
 #     }
 # }
+# 4 Docker compose
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres',
+#         'PASSWORD': '12345',
+#         'HOST': 'db',
+#         'PORT': 5432
+#     }
+# }
 
-# prod
+# heroku prod
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
