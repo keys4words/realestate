@@ -91,28 +91,28 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 #     }
 # }
 # 4 Docker compose
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'postgres',
-#         'USER': 'postgres',
-#         'PASSWORD': '12345',
-#         'HOST': 'db',
-#         'PORT': 5432
-#     }
-# }
-
-# heroku prod
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd2s08s4ri79k0c',
-        'USER': 'fahwyjzgiawnnh',
-        'PASSWORD': '88fb0ba247f1eaf090f549b68853abe5d8a815283f2142186f4631ee1c720905',
-        'HOST': 'ec2-54-155-35-88.eu-west-1.compute.amazonaws.com',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '12345',
+        'HOST': 'db',
         'PORT': 5432
     }
 }
+
+# heroku prod
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'd2s08s4ri79k0c',
+#         'USER': 'fahwyjzgiawnnh',
+#         'PASSWORD': '88fb0ba247f1eaf090f549b68853abe5d8a815283f2142186f4631ee1c720905',
+#         'HOST': 'ec2-54-155-35-88.eu-west-1.compute.amazonaws.com',
+#         'PORT': 5432
+#     }
+# }
 
 
 # Password validation
